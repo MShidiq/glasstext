@@ -19,26 +19,25 @@ Algoritmanya sangatlah sederhana. **String** dikonversi ke **ascii decimal** lal
 Glasstext is not yet available in PyPi so if you want to use it just copy the glasstext folder into your project.
 
 > To see examples of glasstext, try running `test.py`
-> ```shell
-python test.py
-```
+> `python test.py`
 
 # Documentation
+
 After the glasstext folder is copied to your project folder, after that you import the glasstext module.
 ```python
 from glasstext import glass
 ```
 
-- **read(glasstext, rotate=False)**
+- **read(glasstext, rotate=False)**<br>
 Reads the glasstext string into a plain text string
 
-- **write(text, rotate=False)**
+- **write(text, rotate=False)**<br>
 Change plain text to glasstext
 
-- **load(filename, rotate=False)**
+- **load(filename, rotate=False)**<br>
 Load and read glasstext from a file into plain text
 
-- **dump(text, filename, rotate=False)**
+- **dump(text, filename, rotate=False)**<br>
 Change the plain text into glasstext then make the file
 
 > _Rotate parameter_ is to change/rotate the default binary output.
@@ -49,8 +48,8 @@ Change the plain text into glasstext then make the file
 
 
 # Pros and Cons
-- **Pros**
+- **Pros**<br>
 Your string is invisible
 
-- **Cons**
+- **Cons**<br>
 Glasstext is very long string, because it is binary that changed to space and tabs
