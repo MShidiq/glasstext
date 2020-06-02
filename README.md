@@ -1,6 +1,6 @@
 <h1 align="center"> glasstext </h1> 
 <h4 align="center"> 
-Python module for making invisible text
+python module for making invisible text
 </h4>
 <div align="center"> <img alt="Screenshot" width="60%" src="screenshot.png"/> </div>
 
@@ -16,10 +16,9 @@ Glasstext mengkonversi sebuah string menjadi <kbd>spasi</kbd> dan <kbd>tabs</kbd
 Algoritmanya sangatlah sederhana. **String** dikonversi ke **ascii decimal** lalu ascii decimal dikonversi ke **binary** setelah jadi binary, angka 0 diubah menjadi <kbd>spasi</kbd> dan angka 1 diubah menjadi <kbd>tabs</kbd>.
 
 # Installing
-Glasstext is not yet available in PyPi so if you want to use it just copy the glasstext folder into your project.
-
-> To see examples of glasstext, try running `test.py`
-> `python test.py`
+```python
+python setup.py install
+```
 
 # Documentation
 
