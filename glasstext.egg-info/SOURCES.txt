@@ -1,0 +1,8 @@
+README.md
+setup.py
+glasstext/__init__.py
+glasstext/glass.py
+glasstext.egg-info/PKG-INFO
+glasstext.egg-info/SOURCES.txt
+glasstext.egg-info/dependency_links.txt
+glasstext.egg-info/top_level.txt
