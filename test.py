@@ -1,4 +1,4 @@
-import glass
+from glasstext import glass
 
 text = input('plain text: ')
 glasstext = glass.write(text)
